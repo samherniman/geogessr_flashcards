@@ -1,0 +1,31 @@
+---
+title: "Make flashcards"
+author: "Sam Herniman"
+date: "24/01/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(sf)
+library("rnaturalearth")
+library("rnaturalearthdata")
+```
+
+```{r}
+cities <- download_cities(
+  country_name = "Russia"
+)
+```
+```{r}
+
+```
+
+
+
+
+
